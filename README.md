@@ -1,5 +1,5 @@
 # TLS-GO
-TLS Practice using Go
+TLS Server Implementation using Go
 
 ## Self Signed certificate
 
