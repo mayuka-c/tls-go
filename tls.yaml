@@ -1,0 +1,20 @@
+caCert:
+  serial: 1
+  validForYears: 10
+  subject:
+    country: India
+    organization: Golang Demo Org
+    organizationalUnit: Certificate Management
+    locality: BLR
+    commonName: CA Certificate
+certs:
+  go-demo-client.localtest.me:
+    serial: 1
+    validForYears: 1
+    dnsNames: ["go-demo-tls.localtest.me", "go-demo-2.localtest.me"]
+    subject:
+      country: India
+      organization: Golang Demo Org
+      organizationalUnit: go-demo-tls department
+      locality: BLR
+      commonName: go-demo-client.localtest.me
